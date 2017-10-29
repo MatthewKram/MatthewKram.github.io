@@ -1,0 +1,300 @@
+@font-face {
+    font-family: Neoneon;
+    src: url(../fonts/Neoneon.otf);
+}
+
+body{
+    color: #333;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    background: url(https://www.artsfon.com/download.php?file=201410/1920x1080/artsfon.com-17564.jpg) no-repeat 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+@media(max-width: 400px){
+    body{overflow: scroll;}
+}
+
+.wrapper {
+    min-width: 320px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    overflow: hidden;
+    height: auto;
+}
+
+
+.header{
+    min-width: 320px;
+    background: url(https://worldexpeditions.s3-ap-southeast-2.amazonaws.com/Polar-Regions/Iceland/540585766e609-IcelandRoad-323706-1920px-16x7.jpg) no-repeat 100%;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+
+.head_middle{
+    padding: 60px;
+}
+
+.head_left {
+    position: relative;
+    z-index: 5;
+}
+
+.logo{
+    color: #fff;
+    margin-top: 50px;
+}
+
+.logo_name{
+    font-family: 'Neoneon', sans-serif;
+    font-size: 48px;
+}
+
+.logo_name a{
+    color: white;
+    text-shadow: 4px 2px 13px #fff;
+}
+
+.logo_name a:hover{
+    margin-left: 1px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 4px 2px 3px red;
+}
+
+.slogan{
+    font-size: 24px;
+}
+
+.head_bottom{
+    position: relative;
+    z-index: 15;
+}
+
+.main-menu{
+    background-color: rgba(35, 135, 200, 0.5);
+    padding: 0 60px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #fff;
+    background-color: #841f1f;
+}
+
+h2{
+    color: #fff;
+}
+
+.contact-main{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #d6dbe0;
+    margin-bottom: 35px;
+}
+
+.contact-main-info{
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: lighter;
+    letter-spacing: .01em;
+    padding-left: 30px;
+    position: relative;
+}
+
+.contact-main-info i{
+    color: #258ed8;
+    font-size: 16px;
+    margin: 0 10px 0 0;
+}
+
+.contact-main-info a{
+    color: #fff;
+    line-height: 1.3em;
+}
+
+.contact-title{
+    margin: 0 0 60px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: .01em;
+}
+
+.contacts-requisites>div{
+    color: #fff;
+    font-weight: lighter;
+    line-height: 30px;
+    letter-spacing: .025em;
+    margin-bottom: 40px;
+}
+
+footer{
+    min-width: 17vh;
+    padding: 1.5em 7em 0.5em;
+    background-color: #222;
+    color: white;
+    font-size: 0.9em;
+}
+
+footer a{
+    color: #fff;
+    line-height: 1.3em;
+}
+
+@media (max-width: 1250px){
+    footer{ padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+@media (max-width: 940px){
+    footer .footer-about{
+        display: none;
+    }
+}
+
+@media (max-width: 940px){
+    footer .footer-social{
+        text-align: left;
+        width: 56%;
+    }
+}
+
+@media (max-width: 940px){
+    footer .footer-contacts{
+        text-align: right;
+        width: 43%;
+    }
+}
+
+.footer-about, .footer-social{
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+
+.footer-contacts{
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+    float: right;
+}
+
+.footer-about{
+    text-align: left;
+}
+.footer-about p {
+    font-size: 15px;
+    padding-right: 1.5em;
+    line-height: 1.2em;
+    opacity: 0.7;
+}
+
+.footer-social{
+    text-align: center;
+}
+.footer-contacts{
+    text-align: right;
+}
+
+.footer-social ul{
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-social a{
+    border-radius: 50%;
+    background-color: #222;
+    text-shadow: none;
+    color: #fff;
+    padding: 0.7em 0.9em;
+    margin-right: 0.1em;
+}
+
+.footer-social h3{
+    margin-top: -8px;
+    margin-bottom: 20px;
+}
+
+.footer-contacts a{
+    display: block;
+}
+.footer-contacts a:hover{
+    text-decoration: none;
+    color: inherit;
+    -webkit-animation: swing 1s ease;
+            animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    opacity: 0.7;
+}
+@-webkit-keyframes swing
+{
+    15%
+    {-webkit-transform: translateX(5px);transform: translateX(5px);}
+    30%
+    {-webkit-transform: translateX(-5px);transform: translateX(-5px);}
+    50%
+    {-webkit-transform: translateX(3px);transform: translateX(3px);}
+    65%
+    {-webkit-transform: translateX(-3px);transform: translateX(-3px);}
+    80%
+    {-webkit-transform: translateX(2px);transform: translateX(2px);}
+    100%
+    {-webkit-transform: translateX(0);transform: translateX(0);}
+}
+@keyframes swing
+{
+    15%
+    {-webkit-transform: translateX(5px);transform: translateX(5px);}
+    30%
+    {-webkit-transform: translateX(-5px);transform: translateX(-5px);}
+    50%
+    {-webkit-transform: translateX(3px);transform: translateX(3px);}
+    65%
+    {-webkit-transform: translateX(-3px);transform: translateX(-3px);}
+    80%
+    {-webkit-transform: translateX(2px);transform: translateX(2px);}
+    100%
+    {-webkit-transform: translateX(0);transform: translateX(0);}
+}
+
+
+.footer-social li:first-child a:hover {
+    background-color: #4c75a3;
+    color: #fff;
+}
+
+.footer-social li:nth-child(2) a:hover {
+    background: url(https://thumb10.shutterstock.com/mosaic_250/162630792/475787737/stock-vector-gradient-stock-vector-illustration-gradient-colorful-background-in-new-social-style-inspired-by-475787737.jpg) center center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.footer-social li:nth-child(3) a:hover {
+    background-color: #3c5a9a;
+    color: #fff;
+}
+
+.footer-social li:last-child a:hover {
+    background-color: #00b6f1;
+    color: #fff;
+}
+
+.social, .social li{
+    display: inline-block;
+}
+
+
+.footer-bottom {
+    margin-top: 4em;
+    font-size: 1.15em;
+    text-align: center;
+}
