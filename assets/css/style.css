@@ -8,7 +8,7 @@ body{
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     line-height: 1.43;
-    background: url(https://www.artsfon.com/download.php?file=201410/1920x1080/artsfon.com-17564.jpg) no-repeat 100%;
+    background: url(../img/bg/bg.jpeg); no-repeat 100%;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
@@ -284,16 +284,10 @@ footer a{
     footer .footer-about{
         display: none;
     }
-}
-
-@media (max-width: 940px){
     footer .footer-social{
         text-align: left;
         width: 56%;
     }
-}
-
-@media (max-width: 940px){
     footer .footer-contacts{
         text-align: right;
         width: 43%;

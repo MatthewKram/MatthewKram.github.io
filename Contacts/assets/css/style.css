@@ -155,16 +155,10 @@ footer a{
     footer .footer-about{
         display: none;
     }
-}
-
-@media (max-width: 940px){
     footer .footer-social{
         text-align: left;
         width: 56%;
     }
-}
-
-@media (max-width: 940px){
     footer .footer-contacts{
         text-align: right;
         width: 43%;
